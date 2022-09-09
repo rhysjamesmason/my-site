@@ -10,17 +10,18 @@ export interface Props {
 		pubDate?: string;
 		updatedDate?: string;
 		heroImage?: string;
+		ogImage: string;
 	};
 }
 
 const {
-	content: { title, description, pubDate, updatedDate, heroImage },
+	content: { title, description, pubDate, updatedDate, heroImage, ogImage },
 } = Astro.props;
 ---
 
 <html lang="en">
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title} description={description} image={ogImage} />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">
 		<style>
 			.title {
@@ -43,7 +44,7 @@ const {
 						width={720}
 						height={360}
 						src={heroImage}
-						alt=""
+						alt="Hero Image"
 					/>
 				)}
 				<h1 class="title">{title}</h1>
