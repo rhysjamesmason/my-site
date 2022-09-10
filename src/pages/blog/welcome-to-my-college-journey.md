@@ -5,7 +5,7 @@ description: "I have finally choosen the T-Level that I want to persue and we st
 pubDate: "September 09, 2022"
 heroImage: "https://images.pexels.com/photos/289737/pexels-photo-289737.jpeg?auto=compress&cs=tinysrgb&w=720&h=360&dpr=1"
 ogImage: "https://cdn.statically.io/og/theme=dark/My College Journey Begins Now!.jpg"
-draft: true
+draft: false
 ---
 
 
@@ -14,8 +14,8 @@ draft: true
 | <a href='#30S6'>Why I choose my course</a>  |
 | <a href='#ZT3A'>Why I went with Digital Support Services</a> |
 | <a href='#YYPF'>What are my plans in the future?</a>  |
-| <a href=''>What are my plans in this site?</a>  |
-| <a href=''>Conclusion</a>  |
+| <a href='#PhY1'>What are my plans in this site?</a>  |
+| <a href='#rOZW'>Conclusion</a>  |
 
 
 ---
@@ -82,3 +82,22 @@ This covers the two papers that will be assested during the course. It is a full
 <br />
 
 ## __What are my plans in the future?__
+
+My path in thr future is to is to become an Network Adminitrator for a company, no matter if its big or small. I have dremt of being one for a while, also with my intrest in networks and how stuff works, I feel this is a perfect role for me.
+
+<div id="PhY1" />
+<br />
+
+## __What are my plans in this site?__
+
+This site is made with the sole purpose of documenting my time at college and my course. This will be a place where I will update on what is happening and new thing I learn to share with you. The site will be contantly updated to keep it fresh and new. 
+
+Some posts may have interactivie demos on new technology and describing how it would work.
+
+---
+<div id="rOZW" />
+<br />
+
+## __Conclusion__
+
+To end this post of, I would like to say that any projects will be available for you to look at and see how I improve. At the end of my college journey I will tell you if it is worth it or should you go for a normal grade _(e.g. A Level, BTEC)_. That will be all for this installment of my college journey, see you next time!
