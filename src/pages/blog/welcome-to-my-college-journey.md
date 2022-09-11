@@ -9,6 +9,26 @@ ogImage: "https://cdn.statically.io/og/theme=dark/My College Journey Begins Now!
 draft: false
 ---
 
+<head>
+	<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Blog",
+        "item": "https://example.com/blog"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "My College Journey Begins Now!",
+        "item": "https://example.com/books/welcome-to-my-college-journey"
+      }]
+    }
+
+</script>
+</head>
 
 <details>
     <summary>
@@ -17,9 +37,9 @@ draft: false
 
 <a href='#30S6'>Why I choose my course</a><br/>
 <a href='#ZT3A'>Why I went with Digital Support Services</a><br/>
-<a href='#YYPF'>What are my plans in the future?</a>  <br/>
- <a href='#PhY1'>What are my plans in this site?</a>  <br/>
- <a href='#rOZW'>Conclusion</a><br/>
+<a href='#YYPF'>What are my plans in the future?</a> <br/>
+<a href='#PhY1'>What are my plans in this site?</a> <br/>
+<a href='#rOZW'>Conclusion</a><br/>
 
 </details>
 
@@ -30,7 +50,7 @@ draft: false
 
 ## **Why I went with my course**
 
-I chose a T-level since I knew it was going to be a lot of work to do, however in the end it is worth it since, at the time of writing this, it will be worth to about __3 A Levels__.
+I chose a T-level since I knew it was going to be a lot of work to do, however in the end it is worth it since, at the time of writing this, it will be worth to about **3 A Levels**.
 
 > "T Levels are new 2-year courses which are taken after GCSEs and are broadly equivalent in size to 3 A Levels. Launched in September 2020, these courses have been developed in collaboration with employers and education providers so that the content meets the needs of industry and prepares students for entry into skilled employment, an apprenticeship or related technical study through further or higher education."
 >

@@ -14,12 +14,14 @@ const { title, description, image = '/placeholder-social.jpg' } = Astro.props;
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
+<meta name="google" content="nositelinkssearchbox">
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css">
 <link rel="canonical" href="https://www.rhysjames.tk/" />
-<script data-goatcounter="https://statistics.rhysjames.tk/count"
-        async src="//gc.zgo.at/count.js" defer></script>
+<link rel="alternate" href="rss.xml" type="application/rss+xml" title="RSS">
+<script type="text/partytown" data-goatcounter="https://statistics.rhysjames.tk/count"
+        async src="/count.min.js" crossorigin="anonymous"></script>
 <meta name="generator" content={Astro.generator} />
 
 <!-- Primary Meta Tags -->
