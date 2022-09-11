@@ -3,46 +3,50 @@ layout: "../../layouts/BlogPost.astro"
 title: "My College Journey Begins Now!"
 description: "I have finally choosen the T-Level that I want to persue and we start next week!"
 pubDate: "September 09, 2022"
+updatedDate: "September 11, 2022"
 heroImage: "https://images.pexels.com/photos/289737/pexels-photo-289737.jpeg?auto=compress&cs=tinysrgb&w=720&h=360&dpr=1"
 ogImage: "https://cdn.statically.io/og/theme=dark/My College Journey Begins Now!.jpg"
 draft: false
 ---
 
 
-| **Table of contents!**  |
-|---|
-| <a href='#30S6'>Why I choose my course</a>  |
-| <a href='#ZT3A'>Why I went with Digital Support Services</a> |
-| <a href='#YYPF'>What are my plans in the future?</a>  |
-| <a href='#PhY1'>What are my plans in this site?</a>  |
-| <a href='#rOZW'>Conclusion</a>  |
+<details>
+    <summary>
+        Table of Contents
+    </summary>
 
+<a href='#30S6'>Why I choose my course</a><br/>
+<a href='#ZT3A'>Why I went with Digital Support Services</a><br/>
+<a href='#YYPF'>What are my plans in the future?</a>  <br/>
+ <a href='#PhY1'>What are my plans in this site?</a>  <br/>
+ <a href='#rOZW'>Conclusion</a><br/>
+
+</details>
 
 ---
 
 <div id="30S6" />
 <br />
 
-## __Why I went with my course__
+## **Why I went with my course**
 
-
-I chose a T-level since I knew it was going to be a lot of work to do, however at the end it is worth it since, at the the time of writing this, it will be worth to about **3 A Levels**.
+I chose a T-level since I knew it was going to be a lot of work to do, however in the end it is worth it since, at the time of writing this, it will be worth to about __3 A Levels__.
 
 > "T Levels are new 2-year courses which are taken after GCSEs and are broadly equivalent in size to 3 A Levels. Launched in September 2020, these courses have been developed in collaboration with employers and education providers so that the content meets the needs of industry and prepares students for entry into skilled employment, an apprenticeship or related technical study through further or higher education."
 >
-> ***- Gov.uk (September 9th, 2022)***, [Click here to view on the gov.uk site](https://www.gov.uk/government/publications/introduction-of-t-levels/introduction-of-t-levels).
+> **_- Gov.uk (September 9th, 2022)_**, [Click here to view on the gov.uk site](https://www.gov.uk/government/publications/introduction-of-t-levels/introduction-of-t-levels).
 
-This is great since I get to do work placement whilest specialising in a subject in IT, which the category I choose to specialise in is Business Support. This course may sound boring with its name, however it is amazing the topic you cover whilest learning *(The name may be different depending on the college you go to)*.
+This is great since it will allow me to do work placement while specializing in a subject in IT, which is the category I have chosen to specialize in. The course may sound boring by its name; however, it is amazing how much you learn about the topic. _(The name may be different depending on the college you go to)_.
 
 <div id="ZT3A" />
 <br />
 
-## __Why I went with Digital Support Services__
+## **Why I went with Digital Support Services**
 
-As I briefly mentioned in the previous section, the name of the course sound boring, however it has some fun topics to learn about in it. 
+As I briefly mentioned in the previous section, the name of the course may seem boring, but it actually has some interesting topics to learn about.
 <br />
 
-__Paper 1 will include the following:__
+**The first paper will include the following:**
 
     1. Business context including business environment, digital value to business, technical change management and risks in a business context.
 
@@ -51,7 +55,7 @@ __Paper 1 will include the following:__
     3. Data including data and information in organisations, data formats, data systems and data management.
 
     4. Digital analysis including computational thinking and use of algorithms. Digital environments including physical environments, networks, virtual environments, cloud environments and resilience of environments.
-    
+
     5. Diversity and inclusion including digital inclusion and impact of non-inclusive digital practices.
 
     6. Learning including emerging trends and technologies.
@@ -68,7 +72,7 @@ __Paper 1 will include the following:__
 
 <br />
 
-__Furthermore, Paper 2 will include the following:__
+**Furthermore, Paper 2 will include the following:**
 
     1. Careers within the digital support services sector.
 
@@ -76,28 +80,27 @@ __Furthermore, Paper 2 will include the following:__
 
     3. Fault analysis and problem resolution including fault analysis tools, frameworks for problem management, root cause analysis and incident management.
 
-This covers the two papers that will be assested during the course. It is a full-time course that does have work placement as mentioned in the previous section. This course covers topics from: __networking, cyber security & much more__, which is great since it has what I need for my career path.
+This covers the two papers that will be used to evaluate your progress throughout the course. As mentioned in the previous section, the course is full-time and does have a work placement component. This course covers topics from networking, cybersecurity, and much more. That's great, since it has what I need for my career path.
 
 <div id="YYPF" />
 <br />
 
-## __What are my plans in the future?__
+## **What are my plans in the future?**
 
-My path in thr future is to is to become an Network Adminitrator for a company, no matter if its big or small. I have dremt of being one for a while, also with my intrest in networks and how stuff works, I feel this is a perfect role for me.
+My future career goal is to become a network administrator for a company, regardless of its size. I feel this is a perfect role for me, considering my interest in networks and how stuff works, as well as my past aspirations of working in this field.
 
 <div id="PhY1" />
 <br />
 
-## __What are my plans in this site?__
+## **What are my plans in this site?**
 
-This site is made with the sole purpose of documenting my time at college and my course. This will be a place where I will update on what is happening and new thing I learn to share with you. The site will be contantly updated to keep it fresh and new. 
-
-Some posts may have interactivie demos on new technology and describing how it would work.
+This site is solely dedicated to documenting my time at college and my course. This will be a space where I will share updates on what's happening and new things I learn. I will use it to keep you informed. The site will be constantly updated to maintain a fresh and new feel. Some posts may include interactive demos or descriptions of how new technology would work.
 
 ---
+
 <div id="rOZW" />
 <br />
 
-## __Conclusion__
+## **Conclusion**
 
-To end this post of, I would like to say that any projects will be available for you to look at and see how I improve. At the end of my college journey I will tell you if it is worth it or should you go for a normal grade _(e.g. A Level, BTEC)_. That will be all for this installment of my college journey, see you next time!
+To conclude this post, I would like to say that any projects you look at will be available for you to see how I have improved. At the end of my college journey, I will let you know if it was worth it or if you should just go for a normal grade (e.g. A Level, BTEC). That is all for this instalment of my college journey. I will see you next time!
