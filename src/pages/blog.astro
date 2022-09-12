@@ -14,6 +14,7 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 <html lang="en">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} image="https://cdn.statically.io/og/theme=light/Blog%20-%20Rhys%20James.jpg" />
+		<link rel="canonical" href="https://www.rhysjames.tk/blog" />
 		<style>
 			ul {
 				list-style-type: none;
