@@ -1,0 +1,16 @@
+:root {
+    /* Fonts & Settings */
+    --navbar-font: 'Bungee Shade', display;
+    --default-font: 'Days One', sans-serif;
+
+    /* Colours */
+    --main-background: #FFFFFE;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    background: var(--main-background);
+    font-family: var(--default-font);
+}

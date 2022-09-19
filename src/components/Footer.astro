@@ -3,18 +3,97 @@ const today = new Date();
 ---
 
 <footer>
-  &copy; {today.getFullYear()} Rhys James. All rights reserved.
+  <div class="copyright">
+    &copy; {today.getFullYear()} Rhys James. All rights reserved.
+  </div>
+
+  <hr />
 
   <p>
-    This site uses <a href="https://www.goatcounter.com/" hreflang="en" target="_blank">GoatCounter</a> for analytics.
-    It aims to offer easy to use and meaningful privacy-friendly web analytics. <a
-      href="https://statistics.rhysjames.tk" target="_blank" hreflang="en">Click here</a
+    This site uses <a
+      href="https://www.goatcounter.com/"
+      hreflang="en"
+      target="_blank">GoatCounter</a
+    > for analytics. It aims to offer easy to use and meaningful privacy-friendly
+    web analytics. <a
+      href="https://statistics.rhysjames.tk"
+      target="_blank"
+      hreflang="en">Click here</a
     > to see the data we see.
   </p>
+
+  <div class="links">
+    <h5><strong>Pages:</strong></h5>
+
+    <!-- Links to all the pages goes here -->
+    <a href="/">Home</a>
+    <a href="/">Home</a>
+    <a href="/">Home</a>
+
+    <hr />
+    <h5><strong>Latest posts:</strong></h5>
+
+    <!-- Links to all the pages goes here -->
+
+    <hr />
+    <h5><strong>Socials:</strong></h5>
+
+    <!-- Links to all the pages goes here -->
+
+    <hr />
+    <h5><strong>Other:</strong></h5>
+
+    <!-- Links to all the pages goes here -->
+  </div>
 </footer>
-<style>
+<style lang="scss" scoped>
+  :root {
+    --background: #fffffe;
+    --headline: #272343;
+    --paragraph: #2d334a;
+    --links: #ffd803;
+  }
   footer {
-    padding: 25px;
+    // padding: 25px;
     text-align: center;
+    background: var(--background);
+
+    .copyright {
+      font-size: 14px;
+      color: var(--headline);
+    }
+
+    p {
+      font-size: 14px;
+      color: var(--paragraph);
+    }
+
+    .links {
+      font-size: 14px;
+
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        li {
+          list-style: none;
+
+          a {
+            color: var(--paragraph);
+            :hover {
+              transition: 0.2s;
+              color: var(--links);
+            }
+            :active {
+              transition: 0.2s;
+              color: var(--links);
+            }
+          }
+        }
+      }
+    }
   }
 </style>

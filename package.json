@@ -19,6 +19,7 @@
     "@astrojs/partytown": "^1.0.0",
     "astro-compress": "^1.0.7",
     "astro-critters": "^1.0.3",
-    "astro-robots-txt": "^0.3.8"
+    "astro-robots-txt": "^0.3.8",
+    "sass": "^1.54.9"
   }
 }

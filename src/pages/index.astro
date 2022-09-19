@@ -1,24 +1,11 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
+import MainLayout from "../layouts/MainLayout.astro";
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} image="https://cdn.statically.io/og/theme=light/Rhys%20James.jpg" />
-		
-	</head>
-	<body>
-		<Header title={SITE_TITLE} />
-		<main>
-			<h1>Welcome to my site!</h1>
-			<p>Why not have a look around?</p>
-
-			
-		</main>
-		<Footer />
-	</body>
-</html>
+<MainLayout title="Home &middot; Rhys James" description="" image="https://cdn.statically.io/og/theme=light/Rhys%20James.jpg">
+	<section class="hero">
+		<h3>Welcome to,</h3>
+		<h2>My Digital</h2>
+		<h2>Portfolio</h2>
+	</section>
+</MainLayout>
