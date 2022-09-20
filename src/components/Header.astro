@@ -10,25 +10,14 @@
 
     <!-- Mobile UI -->
     <div class="mobile-btn">
-      <button
+      <a
         id="menu-btn"
         aria-expanded="false"
         aria-pressed="false"
         tabindex="0"
       >
-        <svg
-          class="w-6 h-6"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-          ><path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M4 6h16M4 12h16m-7 6h7"></path>
-        </svg>
-      </button>
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+    </a>
     </div>
   </nav>
 </header>
@@ -126,7 +115,7 @@
 
       // Mobile UI Button
       .mobile-btn {
-        button {
+        a {
           // outline: none;
           background: #fff;
           border: none;
@@ -172,12 +161,13 @@
 
   // Accessability
   .skip-to-content-link {
+    visibility: hidden;
     z-index: 1500;
     background: #e77e23;
     height: 30px;
     right: 25px;
     padding: 8px;
-    position: absolute;
+    position: fixed;
     transform: translateY(-120%);
     transition: transform ease-in-out 0.15s;
   }

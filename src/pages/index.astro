@@ -4,8 +4,46 @@ import MainLayout from "../layouts/MainLayout.astro";
 
 <MainLayout title="Home &middot; Rhys James" description="" image="https://cdn.statically.io/og/theme=light/Rhys%20James.jpg">
 	<section class="hero">
-		<h3>Welcome to,</h3>
-		<h2>My Digital</h2>
-		<h2>Portfolio</h2>
+		<div class="content">
+			<h3>Welcome to,</h3>
+			<h2>My Digital</h2>
+			<h2>Portfolio</h2>
+		</div>
+		<div class="cheveron">
+			<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 13l-7 7-7-7m14-8l-7 7-7-7"></path></svg>
+		</div>
 	</section>
 </MainLayout>
+
+<style lang="scss">
+	.hero {
+		height: 100vh;
+		width: 100vw;
+		.content {
+			position: absolute;
+			top: 20%;
+			left: 30px;
+			
+			h3 {
+				margin-bottom: 30px;
+			}
+			h2 {
+				font-size: 36px;
+			}
+		}
+		.cheveron {
+			position: absolute;
+			bottom: 25px;
+			left: 45%;
+			right: 45%;
+
+			width: 36px;
+			height: 36px;
+
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+		}
+	}
+</style>
